@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Random Glowing Buttons</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <h1>Random Glowing Buttons</h1>
+    <h3>Guess the color of this circle's background!</h3>
+    <div>
+        <button id="rndColorBtn"></button>
+        <button id="xColorBtn">Your guess</button>
+    </div>
+
+    <h5>Guess the Red, Green and Blue!</h5>
+    <form>
+        <label for="guessedRed">.....Red</label>
+        <input type="number" id="guessedRed" name="guessedRed" min="0" max="255" autofocus><br>
+        <label for="guessedGreen">...Green</label>
+        <input type="number" id="guessedGreen" name="guessedGreen" min="0" max="255"><br>
+        <label for="guessedBlue">....Blue</label>
+        <input type="number" id="guessedBlue" name="guessedBlue" min="0" max="255"><br>
+    </form>
+    <br>
+    <button id="tryBtn">Try this color</button>
+    <button id="hint">Hint</button>
+    <button id="solution">Solution</button>
+    <p id="hintText"></p>
+    <p id="results"></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
